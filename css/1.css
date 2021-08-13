@@ -2,6 +2,9 @@ samp{
     color: rgb(21, 255, 0);
     font-style: inherit;
 }
+h1{
+    text-align: end;
+}
 p{
     font-style: inherit;
 }
