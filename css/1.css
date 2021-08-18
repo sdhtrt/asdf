@@ -3,23 +3,61 @@ samp{
     font-style: inherit;
 }
 h1{
-    text-align: end;
+    text-align: center;
 }
 p{
     font-style: inherit;
 }
-textarea{
-    color: rgb(255, 45, 45);
-}
 button{
     font-size: 20px;
     color: rgb(162, 0, 255);
+    margin: 10px;
 }
 .blue{
     color: blue;
-    font-size: 30px;
+    font-size: 40px;
+    font-family: unset;
+    border: 5px inset blue;
+    overflow:scroll;
+    max-height: 250px;
+    margin: 0%;
 }
 .yellow{
-    color: rgb(255, 251, 0);
-    font-size: 30px;
+    display: inline-block;
+    color: rgb(251, 255, 0);
+    font-size: 40px;
+    font-family: unset;
+    border: 5px inset;
+    border-color: rgb(238, 255, 176) rgb(238, 255, 0) rgb(238, 255, 0) rgb(238, 255, 176);
+    overflow:scroll;
+    max-height: 250px;
+    margin: 0%;
+}
+.left{
+    display: inline-block;
+    overflow: scroll;
+    font-size: 40px;
+    color: rgb(1, 0, 66);
+    text-shadow: 1px 2px 3px rgb(136, 10, 10);
+    float: left;
+    margin: 0;
+    border: 5px inset rgb(250, 45, 250);
+    height: 250px;
+    max-width: 78%;
+}
+.right{
+    display: inline-block;
+    padding: 0;
+    float: left;
+    height: 250px;
+    border: 5px inset rgb(0, 225, 255);
+    max-width: 20%;
+}
+.pic{
+    background-image: url("1.jpeg");
+}
+.end{
+    color: rgb(1, 0, 66);
+    font-weight: 300;
+    text-shadow: 1px 1px 1px rgb(255, 40, 40);
 }
